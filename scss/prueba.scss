@@ -1,0 +1,119 @@
+
+.silver{
+    color: #BF846F
+}
+ul li{
+    color: rgb(0, 0, 0)
+}
+tr{
+    color:#BF8563
+}
+th{
+    color: black
+}
+#piedepagina{
+    color:rgb(136, 118, 57)
+}
+
+.contacto{
+    font-size: 2em;
+}
+
+#mates{
+    background: #F2E4DC
+}
+footer{
+    background-color:black ;
+    line-height: 4;
+    text-align: center;
+    width: 100%;
+}
+
+
+.contendor {
+    max-width: 100px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.card{
+    background: #fff;
+    border-radius: 15px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin-bottom: 50px;
+}
+.car__1{
+    width: 650px;
+    height: 200px;
+    background: #000;
+    margin-right: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+    display: inline-block;
+}
+
+.card__img{
+    width: 100%;
+}
+
+$size: 100vw;
+$size1: 100vh;
+
+body{
+    background-color:#141518 ;
+    background-size: $size $size1;
+    margin: 0;
+    background-attachment: fixed;
+    font-family:  monospace;
+  }
+  form{
+    width: 450px;
+    margin: auto;
+    background: rgba(0,0,0,0.4)
+    padding: 10px 20px;
+    box-sixing: border-box;
+    margin-top: 20px;
+    border-radius: 7px;
+  }
+  
+  h2{
+    color: #000;
+    text-align:center ;
+    margin: 0;
+    font-size: 30px;
+    margin-bottom:20px;
+  }
+  
+  input, textarea{
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 7px;
+    box-sizing: border-box;
+    font-size: 17px;
+    border: none;
+  }
+  textarea{
+    min-height: 100px;
+    max-height: 200px;
+    max-width: 100%;
+  }
+  #boton{
+    background-color: #31384A;
+    color: #fff;
+    padding: 20px;
+  }
+  #boton:hover {
+    cursor: pointer;
+  }
+
+@media (max-width: 480px) {
+    form{
+        width: 100%;
+    }
+}
+
+
+

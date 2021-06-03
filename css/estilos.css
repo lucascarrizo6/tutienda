@@ -1,0 +1,60 @@
+
+.silver{
+    color: #BF846F
+}
+ul li{
+    color: rgb(0, 0, 0)
+}
+tr{
+    color:#BF8563
+}
+th{
+    color: black
+}
+#piedepagina{
+    color:rgb(136, 118, 57)
+}
+
+.contacto{
+    font-size: 2em;
+}
+
+#mates{
+    background: #F2E4DC
+}
+footer{
+    background-color:black ;
+    line-height: 4;
+    text-align: center;
+    width: 100%;
+}
+
+
+.contendor {
+    max-width: 100px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.card{
+    background: #fff;
+    border-radius: 15px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin-bottom: 50px;
+}
+.car__1{
+    width: 650px;
+    height: 200px;
+    background: #000;
+    margin-right: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+    display: inline-block;
+}
+
+.card__img{
+    width: 100%;
+}
